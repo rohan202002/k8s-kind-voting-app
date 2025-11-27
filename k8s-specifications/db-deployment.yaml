@@ -15,7 +15,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: postgres:18
+      - image: postgres:15
         name: postgres
         env:
         - name: POSTGRES_USER

@@ -15,7 +15,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: postgres:latest
+      - image: postgres:18-alpine
         name: postgres
         env:
         - name: POSTGRES_USER
